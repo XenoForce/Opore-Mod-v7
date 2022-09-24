@@ -16,6 +16,6 @@
 		{"item": "azurite", "amount": 3}
 	],
 	"category": "liquid",
-	"speed": 0.35,
+	// "speed": 0.35,
 	"research": "vo-conduit"
 }

@@ -7,7 +7,7 @@
 	"hasLiquids": false,
 	"outputsPower": true,
 	"consumesPower": true,
-	"plasmas": 4,
+	// "plasmas": 4,
 	"warmupSpeed": 0.001,
 	"itemDuration": 135,
 	"itemCapacity": 100,

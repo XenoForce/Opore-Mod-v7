@@ -5,7 +5,7 @@
   "canOverdrive": true,
   "category": "power",
   "research": "ho-battery",
-  "BuildVisibility": "shown",
+  // "BuildVisibility": "shown",
   "consumes": {
     "powerBuffered": "160000.0"
 	},
