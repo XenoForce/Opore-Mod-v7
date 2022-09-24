@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"hardness": 8,
+	"cost": 2.0,
+	"color": "ff6a00"
+	"flammability": 2
+}
