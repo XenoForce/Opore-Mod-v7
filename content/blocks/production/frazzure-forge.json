@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"itemCapacity": 50,
 	"outputItem": {"item": "frazzure", "amount": 3},
 	"size": 2,

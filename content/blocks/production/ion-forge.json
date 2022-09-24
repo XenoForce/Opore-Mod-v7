@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"liquidCapacity": 50,
 	"itemCapacity": 1000,
 	"outputItem": {"item": "ion", "amount": 30},
