@@ -28,6 +28,6 @@
 	],
 	"category": "crafting",
 	"research": "vo-forge",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	// "idleSound": "respawning",
+	// "idleSoundVolume": 0.5
 }

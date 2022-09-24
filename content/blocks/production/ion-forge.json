@@ -29,6 +29,6 @@
 	],
 	"category": "crafting",
 	"research": "az-forge",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	// "idleSound": "respawning",
+	// "idleSoundVolume": 0.5
 }

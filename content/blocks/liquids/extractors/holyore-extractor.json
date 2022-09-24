@@ -4,7 +4,7 @@
 	"itemCapacity": 50,
 	"result": "liquid-holyore",
 	"size": 3,
-    "atttribute": "oil",
+    "attribute": "oil",
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
@@ -22,6 +22,6 @@
 	],
 	"category": "production",
 	"research": "opore-extractor",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	// "idleSound": "respawning",
+	// "idleSoundVolume": 0.5
 }

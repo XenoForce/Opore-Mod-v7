@@ -4,7 +4,7 @@
 	"itemCapacity": 50,
 	"result": "liquid-antomius",
 	"size": 3,
-    "atttribute": "oil",
+    "attribute": "oil",
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
@@ -22,6 +22,6 @@
 	],
 	"category": "production",
 	"research": "oil-extractor",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	// "idleSound": "respawning",
+	// "idleSoundVolume": 0.5
 }
