@@ -1,8 +1,8 @@
 {
 	"type": "flying",
 	"speed": 4,
-	"buildPower": 9.0,
-	"drillPower": 7.0,
+	"buildSpeed": 9.0,
+	// "drillPower": 7.0,
 	"mineSpeed": 7.0,
 	"engineColor": "fc030b",
 	"flying": true,
