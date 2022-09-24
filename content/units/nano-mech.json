@@ -13,7 +13,7 @@
 		{
 		"name": "close",
 		"reload": 9,
-		"weaponOffsetX": 0,
+		"X": 0,
 		"shootSound": "spark",
 		"bullet": { 
 			"type": "LightningBulletType",

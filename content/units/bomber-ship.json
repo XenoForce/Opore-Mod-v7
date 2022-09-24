@@ -7,7 +7,7 @@
 	"engineColor": "302f2f",
 	"flying": true,
 	"health": 5000,
-	"weaponOffsetX": 4,
+	// "weaponOffsetX": 4,
 	"research": "op-factory"
 	"weapons": [
 		{
