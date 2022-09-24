@@ -1,5 +1,5 @@
 {
-	"type": "material",
+	// "type": "material",
 	"hardness": 9,
 	"cost": 2.0,
 	"color": "c3c9c5",
