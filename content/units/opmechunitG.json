@@ -6,19 +6,19 @@
 	"engineOffset": 5.5,
 	"range": 160,
 	"hovering": true,
-	"research": "op-factory"
+	"research": "op-factory",
 	"weapons": [
 		{
 		"name": "op-mechunitG-blaster",
 		"reload": 9,
 		"shootSound": "shootBig",
-		"bullet": { 
+		"bullet": {
 			"type": "LaserBoltBulletType",
 			"damage": 16,
 			"speed": 2,
 			"lifetime": 120,
 			"frontColor": "00ff00",
-			"backColor": "00aa00"
+			"backColor": "00aa00",
             "mixColorFrom": "00ff00",
             "mixColorTo": "00aa00"
 			}

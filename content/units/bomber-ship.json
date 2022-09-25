@@ -16,7 +16,7 @@
 		"shootSound": "missile",
 		"bullet": { 
 			"type": "missileBulletType",
-			"bulletSprite": "missile-f117",
+			"sprite": "amvx-missile-f117",
 			"damage": 60, 
 			"speed": 2,
 			"homingRange":150,

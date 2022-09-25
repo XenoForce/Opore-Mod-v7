@@ -15,15 +15,15 @@
 		"reload": 9,
 		"x": 0,
 		"shootSound": "spark",
-		"bullet": { 
+		"bullet": {
 			"type": "LightningBulletType",
-			"damage": 50, 
-			"length": 50,
-            "lightningSpacing": 45,
-            "lightningDelay": 1.1,
-            "lightningLengthRand": 15,
-            "lightningAngleRand": 40,
-            "lightningDamage": 20
+			"damage": 50,
+			"lightningLength": 50,
+			// "lightningSpacing": 45,
+			// "lightningDelay": 1.1,
+			"lightningLengthRand": 15,
+			// "lightningAngleRand": 40,
+			"lightningDamage": 20
 			}
 		}
 	]

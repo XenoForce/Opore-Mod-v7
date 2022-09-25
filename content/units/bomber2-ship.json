@@ -13,8 +13,7 @@
 		{
 		"name": "missile-blaster",
 		"reload": 5,
-		"shootEffect": "plasmadrop",
-		"bullet": { 
+		"bullet": {
 			"type": "BombBulletType",
 			"damage": 70,
 			"frontColor": "ff0000",

@@ -14,7 +14,6 @@
 		"name": "awp-shotty",
 		"reload": 60, 
 		"shootSound": "laser",
-		"shootEffect": "hitMeltdown",
 		"x": 0,
 		"y": 5,
 		"shootCone": 0,
@@ -22,6 +21,7 @@
 		"bullet": { 
 			"type": "ContinuousLaserBulletType",
 			"damage": 70,
+			"hitEffect": "melting",
 			"continuous": true,
 			"lifetime": 60,
 			"frontColor": "fc8803",

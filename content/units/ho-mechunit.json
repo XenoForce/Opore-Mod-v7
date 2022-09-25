@@ -11,13 +11,14 @@
 		"name": "ho-mechunit-blaster",
 		"reload": 8,
 		"shootSound": "spark",
-		"bullet": { 
+		"bullet": {
 			"type": "LaserBulletType",
 			"damage": 23,
-			"frontColor": "ffffff",
-			"backColor": "d4d4d4",
-            "colorFrom": "ffffff",
-            "colorTo": "d4d4d4"
+			// "frontColor": "ffffff",
+			// "backColor": "d4d4d4",
+			// "colorFrom": "ffffff",
+			// "colorTo": "d4d4d4"
+			"colors": ["1f1f1f", "d4d4d4", "ffffff"]
 			}
 		}
 	]
