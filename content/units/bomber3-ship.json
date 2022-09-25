@@ -12,13 +12,14 @@
 	"weapons": [
 		{
 		"name": "missile-blaster",
-		"reload": 9, 
+		"reload": 9,
 		"shootSound": "spark",
-		"bullet": { 
+		"bullet": {
 			"type": "LaserBulletType",
 			"damage": 60,
-			"frontColor": "ff0000",
-			"backColor": "ff0000"
+			// "frontColor": "ff0000",
+			// "backColor": "ff0000"
+			"colors": ["1f0000", "d40000", "ff0000"]
 			}
 		}
 	]

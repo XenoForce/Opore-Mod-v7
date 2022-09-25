@@ -12,20 +12,21 @@
 	"weapons": [
 		{
 		"name": "awp-shotty",
-		"reload": 60, 
+		"reload": 60,
 		"shootSound": "laser",
 		"x": 0,
 		"y": 5,
 		"shootCone": 0,
 		"cooldownTime": 20,
-		"bullet": { 
+		"bullet": {
 			"type": "ContinuousLaserBulletType",
 			"damage": 70,
 			"hitEffect": "melting",
 			"continuous": true,
 			"lifetime": 60,
-			"frontColor": "fc8803",
-			"backColor": "fc8803",
+			// "frontColor": "fc8803",
+			// "backColor": "fc8803",
+			"colors": ["1f1f1f", "fc8803", "ffffff"],
 			"width": 7
 			}
 		}
