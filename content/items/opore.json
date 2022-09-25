@@ -3,6 +3,6 @@
 	"hardness": 5,
 	"cost": 2.0,
 	"color": "ff0000",
-	"explosiveness": 2
+	"explosiveness": 2,
 	"flammability": 2
 }
