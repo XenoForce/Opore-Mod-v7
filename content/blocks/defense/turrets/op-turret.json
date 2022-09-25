@@ -5,7 +5,7 @@
 	"reload": 9,
 	"range": 100,
 	"inaccuracy": 1,
-	"rotatespeed": 12,
+	"rotateSpeed": 12,
 	"ammoTypes": {
 		"opore": {
 			"speed": 3.0,

@@ -5,7 +5,7 @@
 	"reload": 8.5,
 	"range": 150,
 	"inaccuracy": 1,
-	"rotatespeed": 12,
+	"rotateSpeed": 12,
 	"ammoTypes": {
 		"holyore": {
 			"speed": 3.0,
