@@ -8,12 +8,12 @@
 	"flying": false,
 	"health": 1,
 	"hovering": true,
-	"research": "op-factory"
+	"research": "op-factory",
 	"weapons": [
 		{
 		"name": "close",
 		"reload": 9,
-		"X": 0,
+		"x": 0,
 		"shootSound": "spark",
 		"bullet": { 
 			"type": "LightningBulletType",

@@ -8,7 +8,7 @@
 	"flying": true,
 	"health": 7000,
 	// "weaponOffsetX": 4,
-	"research": "bomber-ship"
+	"research": "bomber-ship",
 	"weapons": [
 		{
 		"name": "missile-blaster",
@@ -18,8 +18,8 @@
 			"type": "BombBulletType",
 			"damage": 70,
 			"frontColor": "ff0000",
-			"backColor": "ff0000",
-			},
+			"backColor": "ff0000"
+			}
 		}
 	]
 }

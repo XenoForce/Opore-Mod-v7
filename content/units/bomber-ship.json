@@ -8,7 +8,7 @@
 	"flying": true,
 	"health": 5000,
 	// "weaponOffsetX": 4,
-	"research": "op-factory"
+	"research": "op-factory",
 	"weapons": [
 		{
 		"name": "missile-blaster",
@@ -16,16 +16,16 @@
 		"shootSound": "missile",
 		"bullet": { 
 			"type": "missileBulletType",
-			"bulletSprite": "missile-f117"
+			"bulletSprite": "missile-f117",
 			"damage": 60, 
 			"speed": 2,
 			"homingRange":150,
 			"homingPower":9,
-			"lifetime": 160
+			"lifetime": 160,
 			"frontColor": "ff0000",
 			"backColor": "ff0000",
 			"trailColor": "ff0000"
-			},
+			}
 		}
 	]
 }

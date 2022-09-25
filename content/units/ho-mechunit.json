@@ -5,7 +5,7 @@
 	"health": 700,
 	"engineOffset": 5.5,
 	"range": 160,
-	"research": "opmechunit"
+	"research": "opmechunit",
 	"weapons": [
 		{
 		"name": "ho-mechunit-blaster",
@@ -15,10 +15,10 @@
 			"type": "LaserBulletType",
 			"damage": 23,
 			"frontColor": "ffffff",
-			"backColor": "d4d4d4"
-            "mixColorFrom": "ffffff",
-            "mixColorTo": "d4d4d4"
-			},
+			"backColor": "d4d4d4",
+            "colorFrom": "ffffff",
+            "colorTo": "d4d4d4"
+			}
 		}
 	]
 }
