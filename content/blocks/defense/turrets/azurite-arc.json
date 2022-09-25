@@ -3,22 +3,22 @@
     "targetAir": false,
     "targetGround": true,
     "hasPower": true,
-    "hasLiquid": false,
+    // "hasLiquid": false,
     "health": 1725,
     "size": 4,
     "inaccuracy": 5,
-	"shots": 5,
+	// "shots": 5,
     "recoil": 4,
     "shootCone": 40,
     "rotateSpeed": 30,
     "range": 155,
-	"reloadTime": 350,
-	"powerUse": 30,
-	"shootType" : {
+	// "reloadTime": 350,
+	// "powerUse": 30,
+	"shootType": {
 		"type" : "LaserBulletType",
 		"length": 225,
 		"damage": 1450,
-		"width": 60
+		"width": 60,
 		"lifetime": 60,
 		"lightningSpacing": 85,
 		"lightningLength": 6,
@@ -26,8 +26,8 @@
 		"lightningDamage": 65,
 		"sideAngle": 15,
 		"sideWidth": 0,
-		"sideLength": 0,
-	}
+		"sideLength": 0
+	},
     "requirements": [
         { "item": "azurite", "amount": 75 },
         { "item": "copper", "amount": 35 },
