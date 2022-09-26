@@ -17,6 +17,7 @@
 		{ "item": "silicon", "amount": 40 },
 		{ "item": "graphite", "amount": 20 }
 	],
+	"researchCostMultiplier": 0.1,
 	"category": "production",
 	"research": "vo-drill"
 }
