@@ -55,11 +55,15 @@
 			],
 			"time": 1200
 		},
-	]
+	],
+	
 	"requirements": [
 		{ "item": "lead", "amount": 50 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],
-	"category": "units"
+	
+	"researchCostMultiplier": 0.1,
+	
+	"category": "units",
 	"research": "copper"

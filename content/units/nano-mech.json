@@ -6,9 +6,18 @@
 	"mineSpeed": 0.3,
 	"engineColor": "FFFFFF50",
 	"flying": false,
-	"health": 1,
+	"health": 250,
 	"hovering": true,
-	"research": "op-factory",
+	
+	"research": {
+		"parent": "op-factory",
+		"requirements": [
+			"lead/400",
+			"titanium/500",
+			"silicon/300"
+		]
+	},
+	
 	"weapons": [
 		{
 		"name": "close",
