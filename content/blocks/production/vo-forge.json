@@ -23,8 +23,9 @@
 	},
 	"requirements": [
 		{ "item": "thorium", "amount": 80 },
-		{ "item": "lead", "amount": 70 },
+		{ "item": "lead", "amount": 70 }
 	],
+	"researchCostMultiplier": 0.1,
 	"category": "crafting",
 	"research": "ho-forge",
 	// "idleSound": "respawning",

@@ -27,6 +27,7 @@
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],
+	"researchCostMultiplier": 0.1,
 	"category": "crafting",
 	"research": "blast-mixer",
 	// "idleSound": "respawning",

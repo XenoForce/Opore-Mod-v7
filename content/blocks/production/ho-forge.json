@@ -25,6 +25,7 @@
 		{ "item": "thorium", "amount": 60 },
 		{ "item": "lead", "amount": 60 },
 	],
+	"researchCostMultiplier": 0.1,
 	"category": "crafting",
 	"research": "opore-forge",
 	// "idleSound": "respawning",
