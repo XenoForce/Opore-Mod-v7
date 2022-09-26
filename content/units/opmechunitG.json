@@ -6,7 +6,16 @@
 	"engineOffset": 5.5,
 	"range": 160,
 	"hovering": true,
-	"research": "op-factory",
+	
+	"research": {
+		"parent": "op-factory",
+		"requirements": [
+			"lead/300",
+			"opore/300",
+			"silicon/400"
+		]
+	},
+	
 	"weapons": [
 		{
 		"name": "op-mechunitG-blaster",
