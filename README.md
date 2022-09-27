@@ -5,7 +5,7 @@ Opore-Mod for v7
 
 **Notes:**
 
-1. Here is the link to the original Opore-Mod github repository by xamionex:
+1. Here is the link to the original Opore-Mod github repository by xamionex, which is now archived:
 
 https://github.com/xamionex/Opore-Mod
 
