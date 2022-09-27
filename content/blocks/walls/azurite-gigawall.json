@@ -3,8 +3,9 @@
 	"health": 40000,
 	"size": 4,
 	"requirements": [
-		{ "item": "azurite", "amount": 450 }
+		{ "item": "azurite", "amount": 160 }
 	],
+	"researchCostMultiplier": 0.2,
 	"category": "defense",
 	"research": "vo-gigawall"
 }

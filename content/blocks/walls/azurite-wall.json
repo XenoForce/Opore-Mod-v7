@@ -3,8 +3,9 @@
 	"health": 8000,
 	"size": 2,
 	"requirements": [
-		{ "item": "azurite", "amount": 150 }
+		{ "item": "azurite", "amount": 40 }
 	],
+	"researchCostMultiplier": 0.2,
 	"category": "defense",
 	"research": "vo-wall"
 }
