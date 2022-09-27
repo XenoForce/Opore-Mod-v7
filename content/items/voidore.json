@@ -2,5 +2,6 @@
 	// "type": "material",
 	"hardness": 7,
 	"cost": 2.0,
-	"color": "000000"
+	"color": "000000",
+	"research": "holyore"
 }

@@ -4,5 +4,6 @@
 	"cost": 2.0,
 	"color": "ff0000",
 	"explosiveness": 2,
-	"flammability": 2
+	"flammability": 2,
+	"research": "lead"
 }

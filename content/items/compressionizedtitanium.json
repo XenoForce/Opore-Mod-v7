@@ -2,5 +2,6 @@
 	// "type": "material",
 	"hardness": 5,
 	"cost": 2.0,
-	"color": "5279ff"
+	"color": "5279ff",
+	"research": "opore"
 }

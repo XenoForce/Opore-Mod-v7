@@ -4,5 +4,6 @@
 	"cost": 2.0,
 	"color": "212121",
 	"explosiveness": 5,
-	"flammability": 5
+	"flammability": 5,
+	"research": "azonite"
 }
