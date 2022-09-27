@@ -8,7 +8,16 @@
 	"flying": true,
 	"health": 6000,
 	// "weaponOffsetX": 4,
-	"research": "bomber2-ship",
+	
+	"research": {
+		"parent": "bomber2-ship",
+		"requirements": [
+			"titanium/500",
+			"metaglass/300",
+			"silicon/400"
+		]
+	},
+	
 	"weapons": [
 		{
 		"name": "missile-blaster",

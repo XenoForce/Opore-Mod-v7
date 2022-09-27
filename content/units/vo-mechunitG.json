@@ -6,7 +6,16 @@
 	"engineOffset": 5.5,
 	"range": 160,
 	"hovering": true,
-	"research": "ho-mechunitG"
+	
+	"research": {
+		"parent": "ho-mechunitG",
+		"requirements": [
+			"titanium/500",
+			"metaglass/300",
+			"silicon/400"
+		]
+	},
+	
 	"weapons": [
 		{
 		"name": "vo-mechunitG-blaster",
