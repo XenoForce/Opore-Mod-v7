@@ -9,6 +9,7 @@
 		{ "item": "titanium", "amount": 60 },
 		{ "item": "thorium", "amount": 40 }
 	],
+	"researchCostMultiplier": 0.2,
 	"category": "effect",
 	"research": "vault"
 }

@@ -5,10 +5,11 @@
 	"health": 14000,
 	"size": 3,
 	"requirements": [
-		{ "item": "voidore", "amount": 175 },
+		{ "item": "voidore", "amount": 70 },
 		{ "item": "titanium", "amount": 60 },
 		{ "item": "thorium", "amount": 40 }
 	],
+	"researchCostMultiplier": 0.2,
 	"category": "effect",
 	"research": "ho-vault"
 }
