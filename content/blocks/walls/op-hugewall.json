@@ -3,7 +3,7 @@
 	"health": 15000,
 	"size": 3,
 	"requirements": [
-		{ "item": "opore", "amount": 160 }
+		{ "item": "opore", "amount": 80 }
 	],
 	"researchCostMultiplier": 0.2,
 	"category": "defense",
