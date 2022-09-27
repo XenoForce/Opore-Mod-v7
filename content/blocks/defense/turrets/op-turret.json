@@ -54,8 +54,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "opore", "amount": 150 },
+		{ "item": "opore", "amount": 35 },
 	],
+	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"research": "duo"
 }
