@@ -5,7 +5,16 @@
 	"health": 700,
 	"engineOffset": 5.5,
 	"range": 160,
-	"research": "opmechunit",
+	
+	"research": {
+		"parent": "opmechunit",
+		"requirements": [
+			"lead/500",
+			"holyore/300",
+			"silicon/400"
+		]
+	},
+	
 	"weapons": [
 		{
 		"name": "ho-mechunit-blaster",

@@ -6,7 +6,16 @@
 	"engineOffset": 5.5,
 	"range": 160,
 	"hovering": true,
-	"research": "opmechunitG",
+	
+	"research": {
+		"parent": "opmechunitG",
+		"requirements": [
+			"lead/500",
+			"holyore/300",
+			"silicon/400"
+		]
+	},
+	
 	"weapons": [
 		{
 		"name": "ho-mechunitG-blaster",
