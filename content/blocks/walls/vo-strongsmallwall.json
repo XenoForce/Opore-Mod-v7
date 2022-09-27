@@ -3,8 +3,9 @@
 	"health": 2100,
 	"size": 1,
 	"requirements": [
-		{ "item": "voidore", "amount": 150 }
+		{ "item": "voidore", "amount": 40 }
 	],
+	"researchCostMultiplier": 0.2,
 	"category": "defense",
 	"research": "ho-strongsmallwall"
 }
