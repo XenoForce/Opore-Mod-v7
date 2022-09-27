@@ -48,13 +48,14 @@
 		}
 	},
 	"requirements": [
-		{ "item": "holyore", "amount": 500 },
-		{ "item": "copper", "amount": 425 },
-		{ "item": "graphite", "amount": 375 },
-		{ "item": "thorium", "amount": 325 },
-		{ "item": "plastanium", "amount": 250 },
-		{ "item": "surge-alloy", "amount": 425 }
+		{ "item": "holyore", "amount": 300 },
+		{ "item": "copper", "amount": 400 },
+		{ "item": "graphite", "amount": 350 },
+		{ "item": "thorium", "amount": 300 },
+		{ "item": "plastanium", "amount": 200 },
+		{ "item": "surge-alloy", "amount": 150 }
 	],
+	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"research": "op-spectre",
 	"shootSound": "shootBig"

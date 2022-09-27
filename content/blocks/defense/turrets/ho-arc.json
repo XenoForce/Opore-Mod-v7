@@ -28,12 +28,13 @@
 		"sideWidth": 0,
 		"sideLength": 0
 	},
-    "requirements": [
-        { "item": "holyore", "amount": 75 },
-        { "item": "copper", "amount": 35 },
-        { "item": "lead", "amount": 50 }
-    ],
-    "category": "turret",
-    "shootSound": "spark",
+	"requirements": [
+		{ "item": "holyore", "amount": 40 },
+		{ "item": "copper", "amount": 35 },
+		{ "item": "lead", "amount": 50 }
+	],
+	"researchCostMultiplier": 0.1,
+	"category": "turret",
+	"shootSound": "spark",
 	"research": "op-arc"
 }

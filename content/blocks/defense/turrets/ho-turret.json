@@ -54,8 +54,9 @@
 		}
 	},
 	"requirements": [
-		{ "item": "holyore", "amount": 15 },
+		{ "item": "holyore", "amount": 25 },
 	],
+	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"research": "op-turret"
 }
