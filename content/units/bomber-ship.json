@@ -27,15 +27,15 @@
 		"shootSound": "missile",
 		"bullet": { 
 			"type": "missileBulletType",
-			"sprite": "amvx-missile-f117",
+			"sprite": "opore-mod-missile-f117",
 			"damage": 60, 
 			"speed": 2,
 			"homingRange":150,
 			"homingPower":9,
 			"lifetime": 160,
-			"frontColor": "ff0000",
-			"backColor": "ff0000",
-			"trailColor": "ff0000"
+			"frontColor": "888888",
+			"backColor":  "ff0000",
+			"trailColor": "ffff88"
 			}
 		}
 	]
