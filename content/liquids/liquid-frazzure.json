@@ -1,7 +1,8 @@
 {
 	"temperature": 0.9,
 	// "amount": 0.5,
-    "viscosity": 0.4,
-    "effect": "freezing",
-    "color": "00ffff"
+	"viscosity": 0.4,
+	"effect": "freezing",
+	"color": "00ffff",
+	"research": "liquid-voidore"
 }

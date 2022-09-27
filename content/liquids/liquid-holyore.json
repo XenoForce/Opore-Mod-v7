@@ -1,7 +1,8 @@
 {
 	"temperature": 0.5,
 	// "amount": 0.5,
-    "viscosity": 0.45,
-    "effect": "freezing",
-    "color": "ffffff"
+	"viscosity": 0.45,
+	"effect": "freezing",
+	"color": "ffffff",
+	"research": "liquid-opore"
 }
