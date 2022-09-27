@@ -21,11 +21,6 @@ https://github.com/XenoForce/Happy-Times-Mod
 
 3. Screenshots:
 
-![Wall blocks:](https://images2.imgbox.com/26/98/ocR8onqd_o.png)
-
-
-<br>
-
 Image Gallery (photo album) here:
 
 https://imgbox.com/g/I7o6m9CcXd
