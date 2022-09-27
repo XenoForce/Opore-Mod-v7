@@ -1,6 +1,6 @@
 {
 	"type": "flying",
-	"speed": 4,
+	"speed": 3,
 	"buildSpeed": 10.0,
 	// "drillPower": 9.0,
 	"mineSpeed": 9.0,

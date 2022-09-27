@@ -1,6 +1,6 @@
 {
 	"type": "mech",
-	"speed": 1.2,
+	"speed": 1.3,
 	"flying": false,
 	"health": 1000,
 	"engineOffset": 5.5,

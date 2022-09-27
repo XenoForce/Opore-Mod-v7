@@ -1,6 +1,6 @@
 {
 	"type": "mech",
-	"speed": 1,
+	"speed": 1.2,
 	"flying": false,
 	"health": 700,
 	"engineOffset": 5.5,
@@ -17,19 +17,14 @@
 	},
 	
 	"weapons": [
-		{
+	{
 		"name": "ho-mechunitG-blaster",
 		"reload": 8,
 		"shootSound": "spark",
 		"bullet": {
 			"type": "LaserBulletType",
 			"damage": 23,
-			// "frontColor": "ffffff",
-			// "backColor": "d4d4d4",
-			// "colorFrom": "ffffff",
-			// "colorTo": "d4d4d4"
 			"colors": ["1f1f1f", "d4d4d4", "ffffff"]
-			}
 		}
-	]
+	}]
 }

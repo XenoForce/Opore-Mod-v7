@@ -1,6 +1,6 @@
 {
 	"type": "mech",
-	"speed": 0.8,
+	"speed": 1.1,
 	"flying": false,
 	"health": 500,
 	"engineOffset": 5.5,
@@ -17,7 +17,7 @@
 	},
 	
 	"weapons": [
-		{
+	{
 		"name": "op-mechunitG-blaster",
 		"reload": 9,
 		"shootSound": "shootBig",
@@ -28,9 +28,8 @@
 			"lifetime": 120,
 			"frontColor": "00ff00",
 			"backColor": "00aa00",
-            "mixColorFrom": "00ff00",
-            "mixColorTo": "00aa00"
-			}
+			"mixColorFrom": "00ff00",
+			"mixColorTo": "00aa00"
 		}
-	]
+	}]
 }
