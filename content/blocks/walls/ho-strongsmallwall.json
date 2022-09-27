@@ -3,8 +3,9 @@
 	"health": 1800,
 	"size": 1,
 	"requirements": [
-		{ "item": "holyore", "amount": 125 }
+		{ "item": "holyore", "amount": 40 }
 	],
+	"researchCostMultiplier": 0.2,
 	"category": "defense",
 	"research": "op-strongsmallwall"
 }
