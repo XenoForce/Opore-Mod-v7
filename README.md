@@ -23,12 +23,10 @@ https://github.com/XenoForce/Happy-Times-Mod
 
 ![Wall blocks:](https://images2.imgbox.com/26/98/ocR8onqd_o.png)
 
-![xxx](https://)
-
 
 <br>
 
-Full Gallery here:
+Image Gallery (photo album) here:
 
 https://imgbox.com/g/I7o6m9CcXd
 
