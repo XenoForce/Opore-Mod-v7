@@ -53,8 +53,9 @@
 		{ "item": "graphite", "amount": 350 },
 		{ "item": "thorium", "amount": 300 },
 		{ "item": "plastanium", "amount": 225 },
-		{ "item": "surge-alloy", "amount": 400 }
+		{ "item": "surge-alloy", "amount": 200 }
 	],
+	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"research": "vo-spectre",
 	"shootSound": "bigshot"

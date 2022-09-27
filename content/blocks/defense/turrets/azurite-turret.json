@@ -56,6 +56,7 @@
 	"requirements": [
 		{ "item": "azurite", "amount": 25 },
 	],
+	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"research": "vo-turret"
 }
