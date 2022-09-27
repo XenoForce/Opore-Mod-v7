@@ -5,6 +5,7 @@
 	"requirements": [
 		{ "item": "opore", "amount": 20 }
 	],
+	"researchCostMultiplier": 0.2,
 	"category": "defense",
 	"research": "copper-wall"
 }
