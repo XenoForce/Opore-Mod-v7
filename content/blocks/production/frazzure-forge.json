@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"itemCapacity": 50,
-	"outputItem": {"item": "frazzure", "amount": 3},
+	"outputItem": {"item": "frazzure", "amount": 15},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
@@ -12,7 +12,7 @@
 		"power": 0.9,
 		"items": {
 			"items": [
-				{ "item": "thorium", "amount": 2 }
+				{ "item": "thorium", "amount": 10 }
 			]
 		},
 		"liquid": {
@@ -21,7 +21,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],

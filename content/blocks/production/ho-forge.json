@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"liquidCapacity": 50,
 	"itemCapacity": 50,
-	"outputItem": {"item": "holyore", "amount": 5},
+	"outputItem": {"item": "holyore", "amount": 15},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
@@ -13,7 +13,7 @@
 		"power": 1.0,
 		"items": {
 			"items": [
-				{ "item": "thorium", "amount": 15 }
+				{ "item": "thorium", "amount": 10 }
 			]
 		},
 		"liquid": {
@@ -23,7 +23,7 @@
 	},
 	"requirements": [
 		{ "item": "thorium", "amount": 60 },
-		{ "item": "lead", "amount": 60 },
+		{ "item": "graphite", "amount": 60 },
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "crafting",

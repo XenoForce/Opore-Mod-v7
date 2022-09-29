@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"liquidCapacity": 50,
 	"itemCapacity": 50,
-	"outputItem": {"item": "azurite", "amount": 3},
+	"outputItem": {"item": "azurite", "amount": 12},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
@@ -13,16 +13,16 @@
 		"power": 0.9,
 		"items": {
 			"items": [
-				{ "item": "thorium", "amount": 2 }
+				{ "item": "thorium", "amount": 10 }
 			]
 		},
 		"liquid": {
-			"liquid": "cryofluid",
+			"liquid": "water",
 			"amount": 0.1
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],

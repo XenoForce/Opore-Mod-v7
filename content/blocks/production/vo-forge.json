@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"liquidCapacity": 50,
 	"itemCapacity": 50,
-	"outputItem": {"item": "voidore", "amount": 5},
+	"outputItem": {"item": "voidore", "amount": 10},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
@@ -23,7 +23,7 @@
 	},
 	"requirements": [
 		{ "item": "thorium", "amount": 80 },
-		{ "item": "lead", "amount": 70 }
+		{ "item": "graphite", "amount": 70 }
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "crafting",
