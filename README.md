@@ -1,5 +1,6 @@
 # Opore-Mod (for v7)
-Opore-Mod for v7
+
+![xxx](https://github.com/XenoForce/Opore-Mod-v7/blob/main/icon.png)
 
 <br>
 
