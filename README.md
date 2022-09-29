@@ -4,11 +4,29 @@
 
 <br>
 
-**Notes:**
+**Screenshots:**
 
-1. Here is the link to the original Opore-Mod github repository by xamionex, which is now archived:
+Image Gallery (photo album) here:
 
-https://github.com/xamionex/Opore-Mod
+  * https://imgbox.com/g/I7o6m9CcXd
+
+<br>
+
+**Introduction:**
+
+This mod ensures that the Opore-Mod lives on in v7 of Mindustry. Some components will even work on the Erekir planet.
+
+* Wall blocks, turrets, units, and unit factories all work on the Erekir planet as well.
+
+<br>
+
+**Background Information:**
+
+The original Opore mod has been archived by its creator, xamionex.
+
+Here is the link to the archived source code repository:
+
+  * https://github.com/xamionex/Opore-Mod
 
 <br>
 
@@ -17,13 +35,5 @@ https://github.com/xamionex/Opore-Mod
 https://github.com/XenoForce/Opore-Unleashed
 
 https://github.com/XenoForce/Happy-Times-Mod
-
-<br>
-
-3. Screenshots:
-
-Image Gallery (photo album) here:
-
-https://imgbox.com/g/I7o6m9CcXd
 
 <br>
