@@ -14,17 +14,16 @@
 		"items": {
 			"items": [
 				{ "item": "op-pykrete", "amount": 5 },
-				{ "item": "metaglass", "amount": 5 }
+				{ "item": "surge-alloy", "amount": 5 }
 			]
 		},
 		"liquid": {
-			"liquid": "liquid-antomius",
+			"liquid": "water",
 			"amount": 0.1
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
-		{ "item": "metaglass", "amount": 80 },
+		{ "item": "graphite", "amount": 50 },
 		{ "item": "opore", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],

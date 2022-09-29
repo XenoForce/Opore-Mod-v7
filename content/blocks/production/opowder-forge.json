@@ -17,12 +17,12 @@
 			]
 		},
 		"liquid": {
-			"liquid": "liquid-frazzure",
+			"liquid": "water",
 			"amount": 0.05
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
 		{ "item": "opore", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],

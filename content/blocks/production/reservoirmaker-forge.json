@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"liquidCapacity": 50,
 	"itemCapacity": 50,
-	"outputItem": {"item": "reservoirpart", "amount": 1},
+	"outputItem": {"item": "reservoirpart", "amount": 2},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
@@ -17,12 +17,12 @@
 			]
 		},
 		"liquid": {
-			"liquid": "oil",
+			"liquid": "water",
 			"amount": 0.1
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],
