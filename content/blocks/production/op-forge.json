@@ -23,7 +23,7 @@
 	},
 	"requirements": [
 		{ "item": "opore", "amount": 50 },
-		{ "item": "graphite", "amount": 50 },
+		{ "item": "lead", "amount": 50 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],

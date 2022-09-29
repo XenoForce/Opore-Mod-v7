@@ -4,18 +4,18 @@
 	"itemCapacity": 50,
 	"result": "liquid-frazzure",
 	"size": 3,
-    "attribute": "oil",
+	"attribute": "oil",
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
 	"pumpAmount": 0.2,
 	"updateEffect": "pulverize",
-    "updateEffectChance": 0.08,
+	"updateEffectChance": 0.08,
 	"consumes": {
 		"power": 3.0,
 		"items": {
 			"items": [
-                { "item": "thorium", "amount": 10 }
+				{ "item": "thorium", "amount": 10 }
 			]
 		},
 		"liquid": {
