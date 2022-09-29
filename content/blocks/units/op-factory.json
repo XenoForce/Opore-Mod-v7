@@ -1,7 +1,7 @@
 	"type": "UnitFactory",
 	"health": 500,
 	"size": 3,
-	"itemCapacity": 30,
+	"itemCapacity": 200,
 	"consumes": {
 		"power": 2.5
 	},
@@ -9,20 +9,20 @@
 		{
 			"unit": "opmechunit",
 			"requirements": [
-				{ "item": "lead", "amount": 50 },
+				{ "item": "graphite", "amount": 50 },
 				{ "item": "opore", "amount": 80 },
 				{ "item": "silicon", "amount": 60 }
 			],
-			"time": 1200
+			"time": 900
 		},
 		{
 			"unit": "opmechunitG",
 			"requirements": [
-				{ "item": "lead", "amount": 50 },
+				{ "item": "graphite", "amount": 50 },
 				{ "item": "opore", "amount": 80 },
 				{ "item": "silicon", "amount": 60 }
 			],
-			"time": 1200
+			"time": 900
 		},
 		{
 			"unit": "bomber-ship",
@@ -33,7 +33,7 @@
 				{ "item": "reservoirpart", "amount": 10 },
 				{ "item": "opore", "amount": 80 }
 			],
-			"time": 1200
+			"time": 900
 		},
 		{
 			"unit": "awp-ship",
@@ -44,21 +44,21 @@
 				{ "item": "reservoirpart", "amount": 10 },
 				{ "item": "opore", "amount": 80 }
 			],
-			"time": 1200
+			"time": 900
 		},
 		{
 			"unit": "nano-mech",
 			"requirements": [
-				{ "item": "lead", "amount": 50 },
-				{ "item": "compressionizedtitanium", "amount": 1 },
+				{ "item": "graphite", "amount": 50 },
+				{ "item": "thorium", "amount": 40 },
 				{ "item": "silicon", "amount": 60 }
 			],
-			"time": 1200
+			"time": 900
 		},
 	],
 	
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],

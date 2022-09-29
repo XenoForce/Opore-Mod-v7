@@ -1,8 +1,8 @@
 	"type": "Reconstructor",
 	"health": 500,
 	"size": 3,
-	"itemCapacity": 50,
-	"constructTime": 900,
+	"itemCapacity": 150,
+	"constructTime": 600,
 	
 	"upgrades": [
 		[opmechunit, ho-mechunit],
@@ -13,7 +13,7 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{ "item": "lead", "amount": 50 },
+				{ "item": "graphite", "amount": 50 },
 				{ "item": "holyore", "amount": 50 },
 				{ "item": "silicon", "amount": 40 }
 			]
@@ -22,7 +22,7 @@
 	},
 	
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
 		{ "item": "holyore", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],

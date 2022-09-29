@@ -1,7 +1,7 @@
 	"type": "Reconstructor",
 	"health": 500,
 	"size": 3,
-	"itemCapacity": 30,
+	"itemCapacity": 300,
 	"liquidCapacity": 50,
 	"constructTime": 300,
 	
@@ -14,21 +14,19 @@
 	"consumes": {
 		"items": {
 			"items": [
-				{ "item": "titanium", "amount": 120 },
-				{ "item": "metaglass", "amount": 100 },
-				{ "item": "silicon", "amount": 150 },
+				{ "item": "voidore", "amount": 90 },
+				{ "item": "surge-alloy", "amount": 90 },
+				{ "item": "silicon", "amount": 110 },
 			]
 		},
-		"liquid": { "liquid": "liquid-opore", "amount": 0.5 }
+		"liquid": { "liquid": "water", "amount": 0.5 }
 		"power": 7
 	},
 	
 	"requirements": [
-		{ "item": "lead", "amount": 120 },
+		{ "item": "graphite", "amount": 120 },
 		{ "item": "silicon", "amount": 90 },
-		{ "item": "thorium", "amount": 120 },
-		{ "item": "titanium", "amount": 70 },
-		{ "item": "metaglass", "amount": 50 },
+		{ "item": "thorium", "amount": 120 }
 	],
 	
 	"category": "units",
@@ -36,10 +34,9 @@
 	"research": {
 		"parent": "op-additive-reconstructor",
 		"requirements": [
-			lead/1200,
+			graphite/1200,
 			silicon/900,
 			thorium/1200,
-			titanium/700,
-			metaglass/500
+			surge-alloy/500
 		]
 	}
