@@ -12,16 +12,7 @@
 	"updateEffect": "pulverize",
 	"updateEffectChance": 0.08,
 	"consumes": {
-		"power": 3.0,
-		"items": {
-			"items": [
-				{ "item": "thorium", "amount": 10 }
-			]
-		},
-		"liquid": {
-			"liquid": "water",
-			"amount": 0.2
-		}
+		"power": 2.0,
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 50 },
