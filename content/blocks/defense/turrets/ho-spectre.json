@@ -49,10 +49,8 @@
 	},
 	"requirements": [
 		{ "item": "holyore", "amount": 300 },
-		{ "item": "copper", "amount": 400 },
 		{ "item": "graphite", "amount": 350 },
 		{ "item": "thorium", "amount": 300 },
-		{ "item": "plastanium", "amount": 200 },
 		{ "item": "surge-alloy", "amount": 150 }
 	],
 	"researchCostMultiplier": 0.1,

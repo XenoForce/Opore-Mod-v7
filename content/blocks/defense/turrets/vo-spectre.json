@@ -28,8 +28,8 @@
 			"smokeEffect": "shootBigSmoke",
 			"hitEffect": "freezing",
 			"ammoMultiplier": 2,
-			"frontColor": "000000",
-			"backColor": "000000"
+			"frontColor": "0600CC",
+			"backColor": "9999EE"
 		},
 		"frazzure": {
 			"lifetime": 5000,
@@ -49,10 +49,8 @@
 	},
 	"requirements": [
 		{ "item": "voidore", "amount": 300 },
-		{ "item": "copper", "amount": 400 },
 		{ "item": "graphite", "amount": 350 },
 		{ "item": "thorium", "amount": 300 },
-		{ "item": "plastanium", "amount": 200 },
 		{ "item": "surge-alloy", "amount": 150 }
 	],
 	"researchCostMultiplier": 0.1,
