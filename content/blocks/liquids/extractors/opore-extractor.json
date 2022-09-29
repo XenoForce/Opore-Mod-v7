@@ -4,21 +4,20 @@
 	"itemCapacity": 50,
 	"result": "liquid-opore",
 	"size": 3,
-    "attribute": "oil",
+	"attribute": "oil",
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
 	"pumpAmount": 0.2,
 	"updateEffect": "pulverize",
-    "updateEffectChance": 0.08,
+	"updateEffectChance": 0.08,
 	"consumes": {
 		"power": 2.0,
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 50 },
-		{ "item": "titanium", "amount": 80 },
+		{ "item": "graphite", "amount": 80 },
 		{ "item": "silicon", "amount": 60 },
-		{ "item": "metaglass", "amount": 50 }
+		{ "item": "thorium", "amount": 50 }
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "production",

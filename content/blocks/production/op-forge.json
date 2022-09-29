@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"liquidCapacity": 50,
 	"itemCapacity": 50,
-	"outputItem": {"item": "megaopore", "amount": 1},
+	"outputItem": {"item": "megaopore", "amount": 5},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
@@ -23,7 +23,7 @@
 	},
 	"requirements": [
 		{ "item": "opore", "amount": 50 },
-		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
 		{ "item": "thorium", "amount": 80 },
 		{ "item": "silicon", "amount": 60 }
 	],
