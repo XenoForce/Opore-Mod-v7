@@ -9,10 +9,14 @@
 	"health": 7000,
 	// "weaponOffsetX": 4,
 	
+	"fogRadius": 90,
+	"envEnabled": 17,
+	"envDisabled": 0,
+	
 	"research": {
 		"parent": "bomber-ship",
 		"requirements": [
-			"lead/500",
+			"graphite/500",
 			"holyore/300",
 			"silicon/400"
 		]

@@ -6,10 +6,14 @@
 	"engineOffset": 5.5,
 	"range": 160,
 	
+	"fogRadius": 90,
+	"envEnabled": 17,
+	"envDisabled": 0,
+	
 	"research": {
 		"parent": "op-factory",
 		"requirements": [
-			"lead/300",
+			"graphite/300",
 			"opore/300",
 			"silicon/400"
 		]

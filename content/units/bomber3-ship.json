@@ -9,11 +9,15 @@
 	"health": 6000,
 	// "weaponOffsetX": 4,
 	
+	"fogRadius": 90,
+	"envEnabled": 17,
+	"envDisabled": 0,
+	
 	"research": {
 		"parent": "bomber2-ship",
 		"requirements": [
-			"titanium/500",
-			"metaglass/300",
+			"graphite/500",
+			"thorium/300",
 			"silicon/400"
 		]
 	},

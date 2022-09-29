@@ -6,11 +6,15 @@
 	"engineOffset": 5.5,
 	"range": 160,
 	
+	"fogRadius": 90,
+	"envEnabled": 17,
+	"envDisabled": 0,
+	
 	"research": {
 		"parent": "ho-mechunit",
 		"requirements": [
-			"titanium/500",
-			"metaglass/300",
+			"graphite/500",
+			"thorium/300",
 			"silicon/400"
 		]
 	},

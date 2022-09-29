@@ -9,11 +9,15 @@
 	"health": 250,
 	"hovering": true,
 	
+	"fogRadius": 90,
+	"envEnabled": 17,
+	"envDisabled": 0,
+	
 	"research": {
 		"parent": "op-factory",
 		"requirements": [
-			"lead/400",
-			"titanium/500",
+			"graphite/400",
+			"thorium/500",
 			"silicon/300"
 		]
 	},
