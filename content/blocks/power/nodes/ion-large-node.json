@@ -5,7 +5,7 @@
 	"maxNodes": 15,
 	"laserRange": 85,
 	"requirements": [
-		{ "item": "ion", "amount": 500 },
+		{ "item": "ion", "amount": 50 },
 		{ "item": "azonite", "amount": 30 }
 	],
 	"category": "power",

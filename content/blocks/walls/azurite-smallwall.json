@@ -1,11 +1,15 @@
-{
-	"type": "Wall",
-	"health": 2000,
-	"size": 1,
-	"requirements": [
-		{ "item": "azurite", "amount": 20 }
-	],
-	"researchCostMultiplier": 0.2,
-	"category": "defense",
-	"research": "root-wall-node"
+type: Wall
+health: 2000
+size: 1
+
+requirements: [ azurite/20 ]
+
+researchCostMultiplier: 0.2
+category: defense
+
+research: {
+  parent: root-wall-node
+  objectives: [
+    azurite
+  ]
 }

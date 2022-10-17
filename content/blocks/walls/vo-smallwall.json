@@ -1,11 +1,15 @@
-{
-	"type": "Wall",
-	"health": 1600,
-	"size": 1,
-	"requirements": [
-		{ "item": "voidore", "amount": 20 }
-	],
-	"researchCostMultiplier": 0.2,
-	"category": "defense",
-	"research": "root-wall-node"
+type: Wall
+health: 1600
+size: 1
+
+requirements: [ voidore/20 ]
+
+researchCostMultiplier: 0.2
+category: defense
+
+research: {
+  parent: root-wall-node
+  objectives: [
+    voidore
+  ]
 }

@@ -5,8 +5,8 @@
 	"maxNodes": 7,
 	"laserRange": 1000,
 	"requirements": [
-		{ "item": "ion", "amount": 1500 },
-		{ "item": "azonite", "amount": 100 }
+		{ "item": "ion", "amount": 80 },
+		{ "item": "azonite", "amount": 70 }
 	],
 	"category": "power",
 	"research": "ion-large-node"

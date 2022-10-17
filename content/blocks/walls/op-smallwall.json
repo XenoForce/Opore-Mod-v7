@@ -1,11 +1,15 @@
-{
-	"type": "Wall",
-	"health": 1000,
-	"size": 1,
-	"requirements": [
-		{ "item": "opore", "amount": 20 }
-	],
-	"researchCostMultiplier": 0.2,
-	"category": "defense",
-	"research": "root-wall-node"
+type: Wall
+health: 1000
+size: 1
+
+requirements: [ opore/20 ]
+
+researchCostMultiplier: 0.2
+category: defense
+
+research: {
+  parent: root-wall-node
+  objectives: [
+    opore
+  ]
 }
