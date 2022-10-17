@@ -21,7 +21,5 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "production",
-	"research": "opore-extractor",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+	"research": "opore-extractor"
 }

@@ -22,7 +22,5 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "production",
-	"research": "holyore-extractor",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+	"research": "holyore-extractor"
 }

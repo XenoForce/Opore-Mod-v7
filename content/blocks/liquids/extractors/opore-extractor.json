@@ -21,7 +21,5 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "production",
-	"research": "op-conveyor",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+	"research": "op-conveyor"
 }

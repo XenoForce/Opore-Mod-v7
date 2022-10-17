@@ -1,8 +1,7 @@
 {
 	"temperature": 0.65,
-	// "amount": 0.5,
 	"viscosity": 0.6,
 	"effect": "melting",
 	"color": "ff0000",
-	"research": "water"
+	"research": "opore"
 }
