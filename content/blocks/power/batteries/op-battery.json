@@ -9,8 +9,8 @@
     "powerBuffered": "10000.0"
   },
   "requirements": [
-    { "item": "copper", "amount": "32" },
-    { "item": "lead", "amount": "160" },
-    { "item": "opore", "amount": "80" },
+    { "item": "graphite", "amount": "30" },
+    { "item": "silicon", "amount": "60" },
+    { "item": "opore", "amount": "50" },
   ],
 }

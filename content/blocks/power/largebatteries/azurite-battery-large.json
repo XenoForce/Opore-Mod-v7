@@ -9,9 +9,9 @@
     "powerBuffered": "19200000.0"
   },
   "requirements": [
-    { "item": "lead", "amount": "10120" },
-    { "item": "titanium", "amount": "4560" },
-    { "item": "silicon", "amount": "4560" },
-    { "item": "azurite", "amount": "2400" }
+    { "item": "graphite", "amount": "180" },
+    { "item": "thorium", "amount": "180" },
+    { "item": "silicon", "amount": "180" },
+    { "item": "azurite", "amount": "180" }
   ],
 }

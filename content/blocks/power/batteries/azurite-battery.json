@@ -9,8 +9,8 @@
     "powerBuffered": "640000.0"
   },
   "requirements": [
-    { "item": "copper", "amount": "1280" },
-    { "item": "lead", "amount": "2048" },
-    { "item": "azurite", "amount": "2048" },
+    { "item": "graphite", "amount": "50" },
+    { "item": "silicon", "amount": "80" },
+    { "item": "azurite", "amount": "80" },
   ],
 }
