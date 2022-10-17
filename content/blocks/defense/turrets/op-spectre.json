@@ -55,6 +55,6 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "turret",
-	"research": "spectre",
+	"research": "op-arc",
 	"shootSound": "bigshot"
 }

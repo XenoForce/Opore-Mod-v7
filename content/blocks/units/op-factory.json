@@ -66,4 +66,4 @@
 	"researchCostMultiplier": 0.1,
 	
 	"category": "units",
-	"research": "copper"
+	"research": "root-opore-node"

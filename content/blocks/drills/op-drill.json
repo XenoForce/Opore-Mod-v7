@@ -19,5 +19,5 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "production",
-	"research": "laser-drill"
+	"research": "op-conveyor"
 }

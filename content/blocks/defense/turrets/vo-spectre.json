@@ -55,6 +55,6 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "turret",
-	"research": "ho-spectre",
+	"research": "vo-arc",
 	"shootSound": "shootBig"
 }

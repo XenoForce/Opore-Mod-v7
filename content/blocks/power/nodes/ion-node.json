@@ -9,5 +9,5 @@
 		{ "item": "azonite", "amount": 30 }
 	],
 	"category": "power",
-	"research": "power-node"
+	"research": "root-opore-node"
 }

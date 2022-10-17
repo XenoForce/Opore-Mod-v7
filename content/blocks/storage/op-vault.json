@@ -11,5 +11,5 @@
 	],
 	"researchCostMultiplier": 0.2,
 	"category": "effect",
-	"research": "vault"
+	"research": "op-conveyor"
 }

@@ -21,7 +21,7 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "production",
-	"research": "oil-extractor",
+	"research": "op-conveyor",
 	// "idleSound": "respawning",
 	// "idleSoundVolume": 0.5
 }

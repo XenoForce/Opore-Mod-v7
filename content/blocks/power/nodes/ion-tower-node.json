@@ -9,5 +9,5 @@
 		{ "item": "azonite", "amount": 100 }
 	],
 	"category": "power",
-	"research": "power-node-large"
+	"research": "ion-large-node"
 }

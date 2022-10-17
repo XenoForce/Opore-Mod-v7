@@ -55,6 +55,6 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "turret",
-	"research": "vo-spectre",
+	"research": "azurite-arc",
 	"shootSound": "bigshot"
 }

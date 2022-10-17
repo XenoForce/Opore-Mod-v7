@@ -36,5 +36,5 @@
 	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"shootSound": "spark",
-	"research": "arc"
+	"research": "op-turret"
 }

@@ -4,11 +4,10 @@
   "health": 2500,
   "canOverdrive": true,
   "category": "power",
-  "research": "op-battery-large",
-  // "BuildVisibility": "shown",
+  "research": "ho-battery",
   "consumes": {
     "powerBuffered": "1200000.0"
-	},
+  },
   "requirements": [
     { "item": "lead", "amount": "1280" },
     { "item": "titanium", "amount": "640" },

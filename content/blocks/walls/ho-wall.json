@@ -7,5 +7,5 @@
 	],
 	"researchCostMultiplier": 0.2,
 	"category": "defense",
-	"research": "op-wall"
+	"research": "ho-strongsmallwall"
 }
