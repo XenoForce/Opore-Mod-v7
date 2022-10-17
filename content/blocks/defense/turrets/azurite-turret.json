@@ -58,5 +58,5 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "turret",
-	"research": "op-turret"
+	"research": "root-turret-node"
 }
