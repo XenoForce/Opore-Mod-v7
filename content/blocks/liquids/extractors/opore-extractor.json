@@ -1,25 +1,29 @@
-{
-	"type": "Fracker",
-	"liquidCapacity": 50,
-	"itemCapacity": 50,
-	"result": "liquid-opore",
-	"size": 3,
-	"attribute": "oil",
-	"hasPower": true,
-	"hasLiquids": true,
-	"hasItems": true,
-	"pumpAmount": 0.2,
-	"updateEffect": "pulverize",
-	"updateEffectChance": 0.08,
-	"consumes": {
-		"power": 2.0,
-	},
-	"requirements": [
-		{ "item": "graphite", "amount": 80 },
-		{ "item": "silicon", "amount": 60 },
-		{ "item": "thorium", "amount": 50 }
-	],
-	"researchCostMultiplier": 0.1,
-	"category": "production",
-	"research": "op-conveyor"
+type: Fracker
+liquidCapacity: 50
+itemCapacity: 50
+
+result: liquid-opore
+
+size: 3
+attribute: oil
+hasPower: true
+hasLiquids: true
+hasItems: true
+pumpAmount: 0.2
+updateEffect: pulverize
+updateEffectChance: 0.08
+
+consumes: {
+	power: 2.0
 }
+
+requirements: [
+	graphite/80
+	silicon/60
+	thorium/50
+]
+
+researchCostMultiplier: 0.1
+category: production
+
+research: siliconmaker-forge

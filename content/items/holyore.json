@@ -1,7 +1,5 @@
-{
-	// "type": "material",
-	"hardness": 6,
-	"cost": 2.0,
-	"color": "ffffff",
-	"research": "opore"
-}
+hardness: 6
+cost: 2.0
+color: ffffff
+
+research: ho-forge

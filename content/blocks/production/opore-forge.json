@@ -1,32 +1,43 @@
-{
-	"type": "GenericCrafter",
-	"liquidCapacity": 50,
-	"itemCapacity": 50,
-	"outputItem": {"item": "opore", "amount": 10},
-	"size": 2,
-	"hasPower": true,
-	"hasLiquids": true,
-	"hasItems": true,
-	"craftTime": 60,
-	"updateEffect": "smeltsmoke",
-	"consumes": {
-		"power": 0.8,
-		"items": {
-			"items": [
-				{ "item": "thorium", "amount": 10 }
-			]
-		},
-		"liquid": {
-			"liquid": "water",
-			"amount": 0.05
-		}
-	},
-	"requirements": [
-		{ "item": "graphite", "amount": 50 },
-		{ "item": "thorium", "amount": 80 },
-		{ "item": "silicon", "amount": 60 }
-	],
-	"researchCostMultiplier": 0.1,
-	"category": "crafting",
-	"research": "root-opore-node"
+type: GenericCrafter
+liquidCapacity: 50
+itemCapacity: 50
+
+outputItem: opore/10
+
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 0.8
+	items: {
+		items: [
+			thorium/10
+		]
+	}
+	liquid: {
+		liquid: water
+		amount: 0.05
+	}
+}
+
+requirements: [
+	graphite/50
+	thorium/80
+	silicon/60
+]
+
+researchCostMultiplier: 0.1
+category: crafting
+
+research: {
+	parent: siliconmaker-forge
+	objectives: [
+		graphite
+		thorium
+		silicon
+	]
 }

@@ -7,9 +7,4 @@ requirements: [ voidore/20 ]
 researchCostMultiplier: 0.2
 category: defense
 
-research: {
-  parent: root-wall-node
-  objectives: [
-    voidore
-  ]
-}
+research: voidore

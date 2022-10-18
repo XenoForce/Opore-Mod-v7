@@ -1,7 +1,5 @@
-{
-	// "type": "material",
-	"hardness": 5,
-	"cost": 2.0,
-	"color": "00ffff",
-	"research": "opore"
-}
+hardness: 5
+cost: 2.0
+color: 00ffff
+
+research: frazzure-forge

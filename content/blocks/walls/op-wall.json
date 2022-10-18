@@ -1,11 +1,10 @@
-{
-	"type": "Wall",
-	"health": 6000,
-	"size": 2,
-	"requirements": [
-		{ "item": "opore", "amount": 35 }
-	],
-	"researchCostMultiplier": 0.2,
-	"category": "defense",
-	"research": "op-strongsmallwall"
-}
+type: Wall
+health: 6000
+size: 2
+
+requirements: [ opore/35 ]
+
+researchCostMultiplier: 0.2
+category: defense
+
+research: op-strongsmallwall

@@ -1,16 +1,17 @@
-{
-  "type": "battery",
-  "size": 1,
-  "health": 700,
-  "canOverdrive": true,
-  "category": "power",
-  "research": "ion-node",
-  "consumes": {
-    "powerBuffered": "40000.0"
-  },
-  "requirements": [
-    { "item": "graphite", "amount": "30" },
-    { "item": "silicon", "amount": "50" },
-    { "item": "holyore", "amount": "60" },
-  ],
+type: battery
+size: 1
+health: 700
+canOverdrive: true
+category: power
+
+consumes: {
+  powerBuffered: 40000.0
 }
+
+requirements: [
+  graphite/30
+  silicon/50
+  holyore/60
+]
+
+research: holyore

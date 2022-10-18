@@ -1,23 +1,25 @@
-{
-	"type": "Drill",
-	"size": 4,
-	"tier": 6,
-	"drillTime": 200.0,
-	"consumes": {
-		"power": 3.0,
-		"liquid": {
-			"liquid": "liquid-opore", 
-			"amount": 0.1,
-			"booster": true,
-			"optional": true
-		}
-	},
-	"requirements": [
-		{ "item": "megaopore", "amount": 20 },
-		{ "item": "silicon", "amount": 40 },
-		{ "item": "graphite", "amount": 20 }
-	],
-	"researchCostMultiplier": 0.1,
-	"category": "production",
-	"research": "op-conveyor"
+type: Drill
+size: 4
+tier: 6
+drillTime: 200.0
+
+consumes: {
+	power: 3.0
+	liquid: {
+		liquid: liquid-opore
+		amount: 0.1
+		booster: true
+		optional: true
+	}
 }
+
+requirements: [
+	megaopore/20
+	silicon/40
+	graphite/20
+]
+
+researchCostMultiplier: 0.1
+category: production
+
+research: opore

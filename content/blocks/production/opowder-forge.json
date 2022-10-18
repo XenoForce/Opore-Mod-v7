@@ -1,34 +1,36 @@
-{
-	"type": "GenericCrafter",
-	"liquidCapacity": 50,
-	"itemCapacity": 50,
-	"outputItem": {"item": "op-powder", "amount": 10},
-	"size": 2,
-	"hasPower": true,
-	"hasLiquids": true,
-	"hasItems": true,
-	"craftTime": 60,
-	"updateEffect": "smeltsmoke",
-	"consumes": {
-		"power": 0.8,
-		"items": {
-			"items": [
-				{ "item": "opore", "amount": 10 }
-			]
-		},
-		"liquid": {
-			"liquid": "water",
-			"amount": 0.05
-		}
-	},
-	"requirements": [
-		{ "item": "graphite", "amount": 50 },
-		{ "item": "opore", "amount": 80 },
-		{ "item": "silicon", "amount": 60 }
-	],
-	"researchCostMultiplier": 0.1,
-	"category": "crafting",
-	"research": "opore-forge",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+type: GenericCrafter
+liquidCapacity: 50
+itemCapacity: 50
+
+outputItem: op-powder/10
+
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 0.8
+	items: {
+		items: [
+			opore/10
+		]
+	}
+	liquid: {
+		liquid: water
+		amount: 0.05
+	}
 }
+
+requirements: [
+	graphite/50
+	opore/80
+	silicon/60
+]
+
+researchCostMultiplier: 0.1
+category: crafting
+
+research: opore

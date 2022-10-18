@@ -1,35 +1,37 @@
-{
-	"type": "GenericCrafter",
-	"liquidCapacity": 50,
-	"itemCapacity": 50,
-	"outputItem": {"item": "megaopore", "amount": 5},
-	"size": 2,
-	"hasPower": true,
-	"hasLiquids": true,
-	"hasItems": true,
-	"craftTime": 60,
-	"updateEffect": "smeltsmoke",
-	"consumes": {
-		"power": 1.0,
-		"items": {
-			"items": [
-				{ "item": "opore", "amount": 10 }
-			]
-		},
-		"liquid": {
-			"liquid": "liquid-opore",
-			"amount": 0.1
-		}
-	},
-	"requirements": [
-		{ "item": "opore", "amount": 50 },
-		{ "item": "lead", "amount": 50 },
-		{ "item": "thorium", "amount": 80 },
-		{ "item": "silicon", "amount": 60 }
-	],
-	"researchCostMultiplier": 0.1,
-	"category": "crafting",
-	"research": "opore-forge",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+type: GenericCrafter
+liquidCapacity: 50
+itemCapacity: 50
+
+outputItem: megaopore/5
+
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 1.0
+	items: {
+		items: [
+			opore/10
+		]
+	}
+	liquid: {
+		liquid: liquid-opore
+		amount: 0.1
+	}
 }
+
+requirements: [
+	opore/50
+	graphite/50
+	thorium/80
+	silicon/60
+]
+
+researchCostMultiplier: 0.1
+category: crafting
+
+research: root-opore-node

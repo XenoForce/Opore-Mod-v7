@@ -1,16 +1,17 @@
-{
-  "type": "battery",
-  "size": 1,
-  "health": 500,
-  "canOverdrive": true,
-  "category": "power",
-  "research": "ion-node",
-  "consumes": {
-    "powerBuffered": "10000.0"
-  },
-  "requirements": [
-    { "item": "graphite", "amount": "30" },
-    { "item": "silicon", "amount": "60" },
-    { "item": "opore", "amount": "50" },
-  ],
+type: battery
+size: 1
+health: 500
+canOverdrive: true
+category: power
+
+consumes: {
+  powerBuffered: 10000.0
 }
+
+requirements: [
+  graphite/30
+  silicon/60
+  opore/50
+]
+
+research: opore

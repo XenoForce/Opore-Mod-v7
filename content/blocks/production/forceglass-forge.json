@@ -29,7 +29,5 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "crafting",
-	"research": "ho-forge",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+	"research": "op-pykrete"
 }

@@ -7,9 +7,4 @@ requirements: [ opore/20 ]
 researchCostMultiplier: 0.2
 category: defense
 
-research: {
-  parent: root-wall-node
-  objectives: [
-    opore
-  ]
-}
+research: opore

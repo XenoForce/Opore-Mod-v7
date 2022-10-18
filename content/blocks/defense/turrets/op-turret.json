@@ -1,62 +1,62 @@
-{
-	"type": "ItemTurret",
-	"health": 1500,
-	"size": 1,
-	"reload": 9,
-	"range": 100,
-	"inaccuracy": 1,
-	"rotateSpeed": 12,
-	"ammoTypes": {
-		"opore": {
-			"speed": 3.0,
-			"damage": 30.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		},
-		"graphite": {
-			"speed": 3.0,
-			"damage": 45.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		},
-		"holyore": {
-			"speed": 3.0,
-			"damage": 35.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		},
-		"voidore": {
-			"speed": 3.0,
-			"damage": 49.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		},
-		"azurite": {
-			"speed": 3.0,
-			"damage": 55.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		}
+type: ItemTurret
+health: 1500
+size: 1
+reload: 9
+range: 100
+inaccuracy: 1
+rotateSpeed: 12
+
+ammoTypes: {
+	"opore": {
+		"speed": 3.0,
+		"damage": 30.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
 	},
-	"requirements": [
-		{ "item": "opore", "amount": 35 },
-	],
-	"researchCostMultiplier": 0.1,
-	"category": "turret",
-	"research": "root-turret-node"
+	"graphite": {
+		"speed": 3.0,
+		"damage": 45.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
+	},
+	"holyore": {
+		"speed": 3.0,
+		"damage": 35.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
+	},
+	"voidore": {
+		"speed": 3.0,
+		"damage": 49.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
+	},
+	"azurite": {
+		"speed": 3.0,
+		"damage": 55.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
+	}
 }
+
+requirements: [ opore/35 ]
+
+researchCostMultiplier: 0.1
+category: turret
+
+research: opore

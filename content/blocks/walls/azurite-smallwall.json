@@ -7,9 +7,4 @@ requirements: [ azurite/20 ]
 researchCostMultiplier: 0.2
 category: defense
 
-research: {
-  parent: root-wall-node
-  objectives: [
-    azurite
-  ]
-}
+research: azurite

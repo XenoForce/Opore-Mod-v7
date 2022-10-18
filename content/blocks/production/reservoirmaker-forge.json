@@ -28,7 +28,5 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "crafting",
-	"research": "op-forge",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+	"research": "megaopore"
 }

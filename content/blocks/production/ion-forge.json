@@ -29,7 +29,5 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "crafting",
-	"research": "az-forge",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+	"research": "azonite"
 }

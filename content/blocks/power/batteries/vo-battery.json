@@ -1,16 +1,17 @@
-{
-  "type": "battery",
-  "size": 1,
-  "health": 900,
-  "canOverdrive": true,
-  "category": "power",
-  "research": "ion-node",
-  "consumes": {
-    "powerBuffered": "160000.0"
-  },
-  "requirements": [
-    { "item": "graphite", "amount": "40" },
-    { "item": "silicon", "amount": "70" },
-    { "item": "voidore", "amount": "70" },
-  ],
+type: battery
+size: 1
+health: 900
+canOverdrive: true
+category: power
+
+consumes: {
+  powerBuffered: 160000.0
 }
+
+requirements: [
+  graphite/40
+  silicon/70
+  voidore/70
+]
+
+research: voidore

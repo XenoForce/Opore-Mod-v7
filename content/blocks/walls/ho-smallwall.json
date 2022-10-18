@@ -7,9 +7,4 @@ requirements: [ holyore/20 ]
 researchCostMultiplier: 0.2
 category: defense
 
-research: {
-  parent: root-wall-node
-  objectives: [
-    holyore
-  ]
-}
+research: holyore

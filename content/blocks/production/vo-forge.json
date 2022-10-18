@@ -1,33 +1,35 @@
-{
-	"type": "GenericCrafter",
-	"liquidCapacity": 50,
-	"itemCapacity": 50,
-	"outputItem": {"item": "voidore", "amount": 10},
-	"size": 2,
-	"hasPower": true,
-	"hasLiquids": true,
-	"hasItems": true,
-	"craftTime": 60,
-	"updateEffect": "smeltsmoke",
-	"consumes": {
-		"power": 1.2,
-		"items": {
-			"items": [
-				{ "item": "thorium", "amount": 10 }
-			]
-		},
-		"liquid": {
-			"liquid": "water",
-			"amount": 0.1
-		}
-	},
-	"requirements": [
-		{ "item": "thorium", "amount": 80 },
-		{ "item": "graphite", "amount": 70 }
-	],
-	"researchCostMultiplier": 0.1,
-	"category": "crafting",
-	"research": "ho-forge",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+type: GenericCrafter
+liquidCapacity: 50
+itemCapacity: 50
+
+outputItem: voidore/10
+
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 1.2
+	items: {
+		items: [
+			thorium/10
+		]
+	}
+	liquid: {
+		liquid: water
+		amount: 0.1
+	}
 }
+
+requirements: [
+	thorium/80
+	graphite/70
+]
+
+researchCostMultiplier: 0.1
+category: crafting
+
+research: siliconmaker-forge

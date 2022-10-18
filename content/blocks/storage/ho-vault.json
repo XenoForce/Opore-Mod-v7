@@ -1,15 +1,16 @@
-{
-	"type": "StorageBlock",
-	"itemCapacity": 100000,
-	"hasItems": true,
-	"health": 13000,
-	"size": 3,
-	"requirements": [
-		{ "item": "holyore", "amount": 50 },
-		{ "item": "titanium", "amount": 60 },
-		{ "item": "thorium", "amount": 40 }
-	],
-	"researchCostMultiplier": 0.2,
-	"category": "effect",
-	"research": "op-vault"
-}
+type: StorageBlock
+itemCapacity: 100000
+hasItems: true
+health: 13000
+size: 3
+
+requirements: [
+	holyore/50
+	graphite/60
+	thorium/40
+]
+
+researchCostMultiplier: 0.2
+category: effect
+
+research: ho-conduit

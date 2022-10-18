@@ -1,6 +1,6 @@
 {
 	"type": "Conduit",
-    "health": 120,
+	"health": 120,
 	"hasLiquids": true,
 	"liquidCapacity": 22,
 	"outputsLiquid": true,

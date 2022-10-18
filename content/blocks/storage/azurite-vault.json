@@ -1,15 +1,16 @@
-{
-	"type": "StorageBlock",
-	"itemCapacity": 150000,
-	"hasItems": true,
-	"health": 20000,
-	"size": 3,
-	"requirements": [
-		{ "item": "azurite", "amount": 70 },
-		{ "item": "titanium", "amount": 60 },
-		{ "item": "thorium", "amount": 40 }
-	],
-	"researchCostMultiplier": 0.2,
-	"category": "effect",
-	"research": "vo-vault"
-}
+type: StorageBlock
+itemCapacity: 150000
+hasItems: true
+health: 20000
+size: 3
+
+requirements: [
+	azurite/70
+	graphite/60
+	thorium/40
+]
+
+researchCostMultiplier: 0.2
+category: effect
+
+research: azurite-conduit

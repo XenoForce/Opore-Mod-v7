@@ -1,6 +1,6 @@
 {
 	"type": "Conduit",
-    "health": 150,
+	"health": 150,
 	"hasLiquids": true,
 	"liquidCapacity": 25,
 	"outputsLiquid": true,
@@ -17,5 +17,5 @@
 	],
 	"category": "liquid",
 	// "speed": 0.19,
-	"research": "op-conduit"
+	"research": "ho-conveyor"
 }

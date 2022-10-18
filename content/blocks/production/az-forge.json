@@ -35,7 +35,5 @@
 	],
 	"researchCostMultiplier": 0.1,
 	"category": "crafting",
-	"research": "vo-forge",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+	"research": "megaopore"
 }

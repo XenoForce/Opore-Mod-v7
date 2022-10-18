@@ -1,62 +1,64 @@
-{
-	"type": "ItemTurret",
-	"health": 1700,
-	"size": 1,
-	"reload": 8.5,
-	"range": 150,
-	"inaccuracy": 1,
-	"rotateSpeed": 12,
-	"ammoTypes": {
-		"holyore": {
-			"speed": 3.0,
-			"damage": 35.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		},
-		"opore": {
-			"speed": 3.0,
-			"damage": 30.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		},
-		"voidore": {
-			"speed": 3.0,
-			"damage": 49.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		},
-		"azurite": {
-			"speed": 3.0,
-			"damage": 55.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		},
-		"graphite": {
-			"speed": 3.0,
-			"damage": 45.0,
-			"width": 16,
-			"height": 21,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 5
-		}
+type: ItemTurret
+health: 1700
+size: 1
+reload: 8.5
+range: 150
+inaccuracy: 1
+rotateSpeed: 12
+
+ammoTypes: {
+	"holyore": {
+		"speed": 3.0,
+		"damage": 35.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
 	},
-	"requirements": [
-		{ "item": "holyore", "amount": 25 },
-	],
-	"researchCostMultiplier": 0.1,
-	"category": "turret",
-	"research": "root-turret-node"
+	"opore": {
+		"speed": 3.0,
+		"damage": 30.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
+	},
+	"voidore": {
+		"speed": 3.0,
+		"damage": 49.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
+	},
+	"azurite": {
+		"speed": 3.0,
+		"damage": 55.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
+	},
+	"graphite": {
+		"speed": 3.0,
+		"damage": 45.0,
+		"width": 16,
+		"height": 21,
+		"shootEffect": "shootSmall",
+		"smokeEffect": "shootSmallSmoke",
+		"ammoMultiplier": 5
+	}
 }
+
+requirements: [
+	holyore/25
+]
+
+researchCostMultiplier: 0.1
+category: turret
+
+research: holyore

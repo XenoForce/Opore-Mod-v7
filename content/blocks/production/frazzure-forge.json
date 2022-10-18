@@ -1,33 +1,35 @@
-{
-	"type": "GenericCrafter",
-	"itemCapacity": 50,
-	"outputItem": {"item": "frazzure", "amount": 15},
-	"size": 2,
-	"hasPower": true,
-	"hasLiquids": true,
-	"hasItems": true,
-	"craftTime": 60,
-	"updateEffect": "smeltsmoke",
-	"consumes": {
-		"power": 0.9,
-		"items": {
-			"items": [
-				{ "item": "thorium", "amount": 10 }
-			]
-		},
-		"liquid": {
-			"liquid": "water",
-			"amount": 0.1
-		}
-	},
-	"requirements": [
-		{ "item": "graphite", "amount": 50 },
-		{ "item": "thorium", "amount": 80 },
-		{ "item": "silicon", "amount": 60 }
-	],
-	"researchCostMultiplier": 0.1,
-	"category": "crafting",
-	"research": "opore-forge",
-	// "idleSound": "respawning",
-	// "idleSoundVolume": 0.5
+type: GenericCrafter
+itemCapacity: 50
+
+outputItem: frazzure/15
+
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes: {
+	power: 0.9
+	items: {
+		items: [
+			thorium/10
+		]
+	}
+	liquid: {
+		liquid: water
+		amount: 0.1
+	}
 }
+
+requirements: [
+	graphite/50
+	thorium/80
+	silicon/60
+]
+
+researchCostMultiplier: 0.1
+category: crafting
+
+research: siliconmaker-forge
