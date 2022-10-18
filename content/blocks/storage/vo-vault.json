@@ -5,7 +5,7 @@ health: 14000
 size: 3
 
 requirements: [
-	voidore/70
+	voidore/60
 	graphite/60
 	thorium/40
 ]

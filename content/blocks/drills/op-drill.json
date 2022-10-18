@@ -14,7 +14,7 @@ consumes: {
 }
 
 requirements: [
-	megaopore/20
+	opore/40
 	silicon/40
 	graphite/20
 ]

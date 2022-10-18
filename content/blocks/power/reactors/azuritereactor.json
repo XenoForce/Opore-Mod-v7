@@ -37,5 +37,5 @@
 		{ "item": "opore", "amount": 500 }
 	],
 	"category": "power",
-	"research": "voreactor"
+	"research": "azurite-battery-large"
 }

@@ -34,5 +34,5 @@
 		{ "item": "opore", "amount": 500 }
 	],
 	"category": "power",
-	"research": "ion-tower-node"
+	"research": "op-battery-large"
 }

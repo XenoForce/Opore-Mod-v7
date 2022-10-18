@@ -5,7 +5,7 @@ health: 10000
 size: 3
 
 requirements: [
-	megaopore/5
+	opore/40
 	graphite/60
 	thorium/40
 ]
