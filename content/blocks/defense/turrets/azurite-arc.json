@@ -7,13 +7,19 @@
 	"health": 1725,
 	"size": 4,
 	"inaccuracy": 5,
-	// "shots": 5,
-	"recoil": 4,
+	
+	"shoot": {
+		"type": "ShootPattern",
+		"shots": 5
+	},
+	
+	"recoil": 2,
 	"shootCone": 40,
 	"rotateSpeed": 30,
 	"range": 155,
-	// "reloadTime": 350,
+	"reload": 80,
 	// "powerUse": 30,
+	
 	"shootType": {
 		"type" : "LaserBulletType",
 		"length": 225,
@@ -28,11 +34,13 @@
 		"sideWidth": 0,
 		"sideLength": 0
 	},
+	
 	"requirements": [
 		{ "item": "azurite", "amount": 40 },
 		{ "item": "silicon", "amount": 35 },
 		{ "item": "graphite", "amount": 50 }
 	],
+	
 	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"shootSound": "spark",
