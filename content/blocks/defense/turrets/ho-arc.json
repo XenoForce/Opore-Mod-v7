@@ -7,19 +7,26 @@
 	"health": 575,
 	"size": 3,
 	"inaccuracy": 5,
-	// "shots": 3,
-	"recoil": 3,
+	
+	"shoot": {
+		"type": "ShootSpread",
+		"spread": 2,
+		"shots": 3
+	},
+	
+	"recoil": 2,
 	"shootCone": 40,
 	"rotateSpeed": 30,
-	"range": 92,
-	// "reloadTime": 95,
+	"range": 120,
+	"reload": 60,
 	// "powerUse": 15,
+	
 	"shootType": {
 		"type" : "LaserBulletType",
-		"length": 85,
+		"length": 115,
 		"damage": 145,
-		"width": 20,
-		"lifetime": 60,
+		"width": 16,
+		"lifetime": 50,
 		"lightningSpacing": 55,
 		"lightningLength": 6,
 		"lightningDelay": 1.0,
@@ -28,11 +35,13 @@
 		"sideWidth": 0,
 		"sideLength": 0
 	},
+	
 	"requirements": [
 		{ "item": "holyore", "amount": 40 },
 		{ "item": "silicon", "amount": 35 },
 		{ "item": "graphite", "amount": 50 }
 	],
+	
 	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"shootSound": "spark",
