@@ -2,7 +2,7 @@ type: ItemTurret
 health: 1700
 size: 1
 reload: 8.5
-range: 150
+range: 180
 inaccuracy: 1
 rotateSpeed: 12
 
@@ -10,8 +10,9 @@ ammoTypes: {
 	"holyore": {
 		"speed": 3.0,
 		"damage": 35.0,
-		"width": 16,
-		"height": 21,
+		"lifetime": 64,
+		"width": 6,
+		"height": 8,
 		"shootEffect": "shootSmall",
 		"smokeEffect": "shootSmallSmoke",
 		"ammoMultiplier": 5
@@ -19,8 +20,9 @@ ammoTypes: {
 	"opore": {
 		"speed": 3.0,
 		"damage": 30.0,
-		"width": 16,
-		"height": 21,
+		"lifetime": 64,
+		"width": 6,
+		"height": 8,
 		"shootEffect": "shootSmall",
 		"smokeEffect": "shootSmallSmoke",
 		"ammoMultiplier": 5
@@ -28,8 +30,9 @@ ammoTypes: {
 	"voidore": {
 		"speed": 3.0,
 		"damage": 49.0,
-		"width": 16,
-		"height": 21,
+		"lifetime": 64,
+		"width": 6,
+		"height": 8,
 		"shootEffect": "shootSmall",
 		"smokeEffect": "shootSmallSmoke",
 		"ammoMultiplier": 5
@@ -37,8 +40,9 @@ ammoTypes: {
 	"azurite": {
 		"speed": 3.0,
 		"damage": 55.0,
-		"width": 16,
-		"height": 21,
+		"lifetime": 64,
+		"width": 6,
+		"height": 8,
 		"shootEffect": "shootSmall",
 		"smokeEffect": "shootSmallSmoke",
 		"ammoMultiplier": 5
@@ -46,8 +50,9 @@ ammoTypes: {
 	"graphite": {
 		"speed": 3.0,
 		"damage": 45.0,
-		"width": 16,
-		"height": 21,
+		"lifetime": 64,
+		"width": 6,
+		"height": 8,
 		"shootEffect": "shootSmall",
 		"smokeEffect": "shootSmallSmoke",
 		"ammoMultiplier": 5
