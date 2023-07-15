@@ -7,19 +7,26 @@
 	"health": 260,
 	"size": 2,
 	"inaccuracy": 5,
-	// "shots": 2,
-	"recoil": 2,
+	
+	"shoot": {
+		"type": "ShootSpread",
+		"spread": 2,
+		"shots": 2
+	},
+	
+	"recoil": 1,
 	"shootCone": 40,
 	"rotateSpeed": 30,
 	"range": 80,
-	// "reloadTime": 75,
+	"reload": 60,
 	// "powerUse": 9,
+	
 	"shootType": {
 		"type": "LaserBulletType",
-		"length": 55,
+		"length": 75,
 		"damage": 195,
-		"width": 16,
-		"lifetime": 60,
+		"width": 14,
+		"lifetime": 50,
 		"lightningSpacing": 50,
 		"lightningLength": 6,
 		"lightningDelay": 1.0,
@@ -28,11 +35,13 @@
 		"sideWidth": 0,
 		"sideLength": 0
 	},
+	
 	"requirements": [
 		{ "item": "opore", "amount": 40 },
 		{ "item": "silicon", "amount": 35 },
 		{ "item": "graphite", "amount": 50 }
 	],
+	
 	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"shootSound": "spark",
