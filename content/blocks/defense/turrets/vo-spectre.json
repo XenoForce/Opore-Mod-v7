@@ -4,12 +4,19 @@
 	"targetGround": true,
 	"health": 9920,
 	"size": 4,
-	"reload": 5,
-	// "shots": 4,
-	"recoil": 3,
+	"reload": 35,
+	
+	shoot: {
+		type: ShootSpread,
+		spread: 2,
+		"shots": 4
+	},
+	
+	"recoil": 2,
     "shootCone": 40,
 	"rotateSpeed": 50,
 	"range": 290,
+	
 	"consumes": {
 		"liquid": {
 			"liquid": "liquid-voidore", 
@@ -17,13 +24,14 @@
 			"booster": true
 		}
 	},
+	
 	"ammoTypes": {
 		"voidore": {
-			"lifetime": 5000,
 			"speed": 5,
 			"damage": 69,
-			"width": 16,
-			"height": 21,
+			"lifetime": 59,
+			"width": 9,
+			"height": 18,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
 			"hitEffect": "freezing",
@@ -32,11 +40,11 @@
 			"backColor": "9999EE"
 		},
 		"frazzure": {
-			"lifetime": 5000,
 			"speed": 6,
 			"damage": 69,
-			"width": 16,
-			"height": 21,
+			"lifetime": 50,
+			"width": 9,
+			"height": 16,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
 			"hitEffect": "freezing",
@@ -47,12 +55,14 @@
 			"backColor": "00ffff"
 		}
 	},
+	
 	"requirements": [
 		{ "item": "voidore", "amount": 300 },
 		{ "item": "graphite", "amount": 350 },
 		{ "item": "thorium", "amount": 300 },
 		{ "item": "surge-alloy", "amount": 150 }
 	],
+	
 	"researchCostMultiplier": 0.1,
 	"category": "turret",
 	"research": "vo-arc",
