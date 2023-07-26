@@ -32,10 +32,8 @@ Here is the link to the archived source code repository:
 
 **Note:**
 
-For those who don't want to spend hours and days gathering all the required resources (items), in order to unlock all the components of the Opore mod, consider using one (or both) of the following companion mods:
+For those who don't want to spend hours and days gathering all the required resources (items), in order to unlock all the components of the Opore mod, consider using the No-Grinding mod:
 
- * https://github.com/XenoForce/Opore-Unleashed
-
- * https://github.com/XenoForce/Happy-Times-Mod
+ * https://github.com/XenoForce/No-Grinding-Mod
 
 <br>
